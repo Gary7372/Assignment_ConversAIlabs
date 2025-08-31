@@ -1,0 +1,71 @@
+I was unable to log all the errors because I did not read the instructions carefully. I sincerely 
+apologize for the oversight. 
+
+
+
+
+
+
+
+
+
+
+
+Cannot connect to GPU backend
+You cannot currently connect to a GPU due to usage limits in Colab. Learn more
+To get more access to GPUs, consider purchasing Colab compute units with Pay As You Go.
+
+
+
+
+
+
+
+
+NotImplementedError: Unsloth currently only works on NVIDIA GPUs and Intel GPUs.
+
+
+
+
+
+
+
+
+
+
+
+
+RuntimeError: CUDA out of memory. Tried to allocate 70.00 MiB (GPU 0; 4.00 GiB total capacity; 2.87 GiB already allocated; 0 bytes free; 2.88 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation. See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+
+
+
+
+
+
+
+
+
+
+
+ERROR: No matching distribution found for torch>=2.7
+error: subprocess-exited-with-error
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+RuntimeError: Input type (torch.cuda.FloatTensor) and weight type (torch.cuda.HalfTensor) should be the same
